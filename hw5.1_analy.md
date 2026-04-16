@@ -13,7 +13,13 @@ author: Yifeng Luo
 
 ## Visualization 1 — Geographic Distribution of UFO Sightings by Shape
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/ufo_map.json" style="width: 100%"></vegachart>
+<div id="chart1"></div>
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<script>
+  vegaEmbed('#chart1', '/ufo_map.json');
+</script>
 
 The first visualization maps approximately 6,000 sampled UFO sightings (filtered to the
 continental United States) as a geographic scatter plot, where each point represents a
@@ -47,7 +53,10 @@ overloading the base view.
 
 ## Visualization 2 — Annual UFO Sighting Counts (1950–2014)
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/ufo_yearly.json" style="width: 100%"></vegachart>
+<div id="chart2"></div>
+<script>
+  vegaEmbed('#chart2', '/ufo_yearly.json');
+</script>
 
 The second visualization shows how the total number of UFO sightings reported in the US
 changed from 1950 to 2014. Each bar represents one calendar year, with the x-axis
