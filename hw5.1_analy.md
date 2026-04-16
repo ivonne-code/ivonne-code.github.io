@@ -7,6 +7,7 @@ author: Yifeng Luo
 <!-- ===== PLOT 1 ===== -->
 <div class="left">
 {% include elements/button.html link="https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv" text="The Data" %}
+
 {% include elements/button.html link="https://github.com/ivonne-code/ivonne-code.github.io/blob/main/hw5.1_ufo.ipynb" text="The Analysis" %}
 </div>
 
