@@ -5,11 +5,11 @@ author: Yifeng Luo
 ---
 
 <!-- ===== PLOT 1 ===== -->
-<div class="left">
+
 [The Data](https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/ufo-scrubbed-geocoded-time-standardized-00.csv)
 
 [The Analysis](https://github.com/ivonne-code/ivonne-code.github.io/blob/main/hw5.1_ufo.ipynb)
-</div>
+
 
 ## Visualization 1 — Geographic Distribution of UFO Sightings by Shape
 
